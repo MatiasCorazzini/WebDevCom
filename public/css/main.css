@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+#page-container {
+  position: relative;
+  top: 87px;
+}
+
+/*
+ * Naviation
+ * */
+
+#nav-bar {
+  display: flex;
+  width: 100%;
+  background-color: #2f3542;
+  position: fixed;
+  z-index: 2;
+}
+
+#logo {
+  width: 50%;
+  padding: 20px;
+}
+
+#logo span {
+  color: #fafafa;
+  font-size: 38px;
+}
+
+#links {
+  display: flex;
+  width: 50%;
+}
+
+.link {
+  margin: 30px;
+}
+
+.link a {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.link a:hover {
+  opacity: 80%;
+}
+
+/*
+ * Banner
+ * */
+
+#banner {
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./../images/banner02.jpeg);
+}
+
+#layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#info {
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
+
+#info h1 {
+  color: #fafafa;
+  font-size: 40px;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+#info p {
+  color: #cfcfcf;
+  font-size: 20px;
+}
