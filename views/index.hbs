@@ -56,22 +56,22 @@
 <div id="formulario">
   <div id="formulario-form">
     <h1 id="formulario-title">Formulario</h1>
-    <form method="POST">
+    <form action="/" method="POST">
       <h2>Complete el formulario con sus datos: </h2>
       <div id="name-last">
         <div>
-          <input type="text" placeholder="Nombre">
+          <input type="text" name="name" placeholder="Nombre">
         </div>
         <div>
-          <input type="text" placeholder="Apellido">
+          <input type="text" name="last" placeholder="Apellido">
         </div>
       </div>
       <div>
         <div id="email">
-          <input type="text" placeholder="Correo electronico">
+          <input type="email" name="email" placeholder="Correo electronico">
         </div>
         <div id="comments">
-          <textarea rows="5" placeholder="Informacion acerca del pedido"></textarea>
+          <textarea rows="5" name="info" placeholder="Informacion acerca del pedido"></textarea>
         </div>
         <div id="formulario-btn">
           <button type="submit">Enviar</button>
