@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 //Settings
-app.set('port', process.env.PORT || 1800);
+app.set('port', process.env.PORT || 1818);
 app.set('views', path.join(__dirname, 'views'));
 app.engine('hbs', engine({
   defaultLayout: 'main',
